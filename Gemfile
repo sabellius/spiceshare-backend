@@ -45,6 +45,9 @@ group :development, :test do
 
   # Fixture replacement with integration to Rails
   gem 'factory_bot_rails', '~> 6.4', '>= 6.4.3'
+
+  # Rspec-compatible one-liners to test common Rails functionality
+  gem 'shoulda-matchers', '~> 6.1'
 end
 
 group :development do
