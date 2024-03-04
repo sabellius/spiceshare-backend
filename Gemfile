@@ -53,5 +53,8 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Fake data generator
+  gem 'faker', '~> 3.2', '>= 3.2.3'
 end
 
