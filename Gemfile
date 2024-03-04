@@ -56,5 +56,8 @@ group :development do
 
   # Fake data generator
   gem 'faker', '~> 3.2', '>= 3.2.3'
+
+  # Pretty print Ruby objects
+  gem 'awesome_print', '~> 1.9', '>= 1.9.2'
 end
 
