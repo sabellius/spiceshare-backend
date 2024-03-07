@@ -1,23 +1,23 @@
 class Api::V1::RecipesController < ApplicationController
   def index
     recipes = Recipe.all
-    render json: recipes
+    render json: RecipeSerializer.new(recipes).serializable_hash.to_json
   end
 
   def create
     recipe = Recipe.create!(recipe_params.merge!(user: current_user))
-    render json: recipe, status: :created
+    render json: RecipeSerializer.new(recipe).serializable_hash.to_json, status: :created
   end
 
   def update
     recipe = Recipe.find(params[:id])
     recipe.update!(recipe_params)
-    render json: recipe, status: :ok
+    render json: RecipeSerializer.new(recipe).serializable_hash.to_json, status: :ok
   end
 
   def show
     recipe = Recipe.find(params[:id])
-    render json: recipe, status: :ok
+    render json: RecipeSerializer.new(recipe).serializable_hash.to_json, status: :ok
   end
 
   def destroy
