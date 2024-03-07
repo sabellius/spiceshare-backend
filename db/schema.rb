@@ -10,7 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_03_04_112144) do
+ActiveRecord::Schema[7.0].define(version: 2024_03_07_112022) do
+  create_table "ingredients", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "name"
+    t.integer "amount"
+    t.string "unit"
+    t.boolean "optional"
+    t.bigint "recipe_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["recipe_id"], name: "index_ingredients_on_recipe_id"
+  end
+
+  create_table "instructions", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.integer "step_number"
+    t.text "description"
+    t.bigint "recipe_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["recipe_id"], name: "index_instructions_on_recipe_id"
+  end
+
   create_table "recipes", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -35,5 +55,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_03_04_112144) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
+  add_foreign_key "ingredients", "recipes"
+  add_foreign_key "instructions", "recipes"
   add_foreign_key "recipes", "users"
 end
