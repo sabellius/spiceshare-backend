@@ -29,6 +29,6 @@ class Api::V1::RecipesController < ApplicationController
 
   def recipe_params
     params.require(:recipe).permit(:id, :title, :description, :prep_time, :cook_time, :servings,
-                                   ingredients_attributes: %i[id name amount unit optional, _destroy], instructions_attributes: %i[id step_number description _destroy])
+                                   ingredients_attributes: %i[id name amount unit optional _destroy], instructions_attributes: %i[id step_number description _destroy])
   end
 end
