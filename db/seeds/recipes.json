@@ -1,0 +1,399 @@
+[
+  {
+    "title": "Grilled Chicken Salad",
+    "servings": 4,
+    "prep_time": "15 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 0.5, "unit": "kg", "name": "boneless, skinless chicken breasts", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": null, "unit": "to taste", "name": "Salt and pepper", "remarks": null},
+      {"amount": 1.5, "unit": "l", "name": "mixed salad greens", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "cherry tomatoes, halved", "remarks": null},
+      {"amount": 1, "unit": null, "name": "cucumber", "remarks": "sliced"},
+      {"amount": 125, "unit": "g", "name": "red onion", "remarks": "thinly sliced"},
+      {"amount": 60, "unit": "ml", "name": "feta cheese", "remarks": "crumbled"},
+      {"amount": 60, "unit": "ml", "name": "balsamic vinaigrette dressing", "remarks": null}
+    ],
+    "instructions": [
+      "Preheat the grill to medium-high heat.",
+      "Brush chicken breasts with olive oil and season with salt and pepper.",
+      "Grill the chicken for 6-8 minutes per side or until cooked through.",
+      "Let the chicken rest for a few minutes before slicing it into strips.",
+      "In a large bowl, combine salad greens, cherry tomatoes, cucumber, red onion, and feta cheese.",
+      "Top the salad with grilled chicken strips.",
+      "Drizzle balsamic vinaigrette dressing over the salad.",
+      "Toss gently to combine all ingredients.",
+      "Serve immediately and enjoy!"
+    ]
+  },
+  {
+    "title": "Vegetable Stir-Fry",
+    "servings": 3,
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "ingredients": [
+      {"amount": 250, "unit": "ml", "name": "broccoli florets", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "carrots, sliced", "remarks": "thinly"},
+      {"amount": 250, "unit": "ml", "name": "bell peppers, mixed colors, sliced", "remarks": "thinly"},
+      {"amount": 125, "unit": "ml", "name": "snow peas", "remarks": null},
+      {"amount": 1, "unit": null, "name": "block tofu", "remarks": "extra-firm, cubed"},
+      {"amount": 45, "unit": "ml", "name": "soy sauce", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "sesame oil", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "vegetable oil", "remarks": null},
+      {"amount": null, "unit": null, "name": "garlic cloves, minced", "remarks": null},
+      {"amount": 5, "unit": "ml", "name": "ginger, grated", "remarks": null},
+      {"amount": null, "unit": null, "name": "green onions, chopped", "remarks": "for garnish"}
+    ],
+    "instructions": [
+      "In a wok or large pan, heat vegetable oil over medium-high heat.",
+      "Add garlic and ginger, sauté for 1 minute until fragrant.",
+      "Add tofu cubes and stir-fry until golden brown.",
+      "Add broccoli, carrots, bell peppers, and snow peas. Stir-fry for 5-7 minutes until vegetables are tender-crisp.",
+      "Pour soy sauce and sesame oil over the vegetables. Toss to combine.",
+      "Garnish with chopped green onions.",
+      "Serve over rice or noodles. Enjoy!"
+    ]
+  },
+  {
+    "title": "Spaghetti Bolognese",
+    "servings": 6,
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "ingredients": [
+      {"amount": 500, "unit": "g", "name": "ground beef", "remarks": null},
+      {"amount": 1, "unit": null, "name": "onion, finely chopped", "remarks": null},
+      {"amount": 2, "unit": null, "name": "garlic cloves, minced", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "carrots, finely grated", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "celery, finely chopped", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "red wine", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 800, "unit": "g", "name": "canned tomatoes, crushed", "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "tomato paste", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "dried oregano", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "dried basil", "remarks": null},
+      {"amount": 375, "unit": "g", "name": "spaghetti", "remarks": null},
+      {"amount": null, "unit": null, "name": "parmesan cheese, grated", "remarks": "for serving"}
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add onion and garlic, sauté until softened.",
+      "Add ground beef and cook until browned.",
+      "Stir in carrots, celery, red wine, crushed tomatoes, tomato paste, oregano, and basil.",
+      "Simmer for 30 minutes, stirring occasionally.",
+      "Cook spaghetti according to package instructions.",
+      "Serve Bolognese sauce over cooked spaghetti.",
+      "Top with grated parmesan cheese. Enjoy!"
+    ]
+  },
+  {
+    "title": "Mango Salsa Chicken",
+    "servings": 4,
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "ingredients": [
+      {"amount": 4, "unit": "boneless, skinless", "name": "chicken breasts", "remarks": null},
+      {"amount": 2, "unit": null, "name": "ripe mangoes, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red bell pepper, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red onion, finely chopped", "remarks": null},
+      {"amount": 1, "unit": null, "name": "jalapeño, seeded and minced", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "lime juice", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh cilantro, chopped", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "ground cumin", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and pepper", "remarks": "to taste"}
+    ],
+    "instructions": [
+      "Preheat the grill to medium-high heat.",
+      "Season chicken breasts with salt, pepper, and ground cumin.",
+      "Grill chicken for 6-8 minutes per side or until cooked through.",
+      "In a bowl, combine diced mangoes, red bell pepper, red onion, jalapeño, and fresh cilantro.",
+      "Drizzle lime juice and olive oil over the mango salsa. Toss to combine.",
+      "Serve grilled chicken topped with mango salsa.",
+      "Garnish with additional cilantro if desired. Enjoy!"
+    ]
+  },
+  {
+    "title": "Pasta Primavera",
+    "servings": 4,
+    "prep_time": "20 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 400, "unit": "g", "name": "penne pasta", "remarks": null},
+      {"amount": 250, "unit": "g", "name": "cherry tomatoes, halved", "remarks": null},
+      {"amount": 2, "unit": null, "name": "zucchini, sliced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "yellow bell pepper, sliced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red bell pepper, sliced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "carrot, julienned", "remarks": null},
+      {"amount": 150, "unit": "g", "name": "snap peas, trimmed", "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 30, "unit": "g", "name": "parmesan cheese, grated", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh basil, chopped", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "garlic, minced", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and pepper", "remarks": "to taste"}
+    ],
+    "instructions": [
+      "Cook penne pasta according to package instructions. Drain and set aside.",
+      "In a large pan, heat olive oil over medium heat. Add garlic and sauté until fragrant.",
+      "Add zucchini, bell peppers, cherry tomatoes, carrot, and snap peas. Sauté for 5-7 minutes until vegetables are tender-crisp.",
+      "Add cooked pasta to the pan. Toss to combine with the vegetables.",
+      "Season with salt and pepper. Sprinkle grated parmesan cheese over the pasta.",
+      "Garnish with fresh basil. Serve warm. Enjoy!"
+    ]
+  },
+  {
+    "title": "Honey Garlic Glazed Salmon",
+    "servings": 4,
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 4, "unit": "salmon fillets", "name": null, "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "soy sauce", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "honey", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 2, "unit": "cloves", "name": "garlic, minced", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "ginger, grated", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "rice vinegar", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "sesame seeds", "remarks": null},
+      {"amount": null, "unit": null, "name": "green onions, chopped", "remarks": "for garnish"}
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C (400°F).",
+      "In a bowl, whisk together soy sauce, honey, olive oil, minced garlic, ginger, and rice vinegar.",
+      "Place salmon fillets on a baking sheet lined with parchment paper.",
+      "Brush the salmon with the honey garlic glaze, reserving some for later.",
+      "Bake for 12-15 minutes or until salmon is cooked through.",
+      "Drizzle the remaining glaze over the cooked salmon.",
+      "Sprinkle sesame seeds and chopped green onions for garnish.",
+      "Serve with your favorite side dishes. Enjoy!"
+    ]
+  },
+  {
+    "title": "Caprese Salad",
+    "servings": 2,
+    "prep_time": "10 minutes",
+    "cook_time": "0 minutes",
+    "ingredients": [
+      {"amount": 4, "unit": null, "name": "tomatoes, sliced", "remarks": null},
+      {"amount": 200, "unit": "g", "name": "fresh mozzarella, sliced", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "balsamic glaze", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 10, "unit": "g", "name": "fresh basil leaves", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and pepper", "remarks": "to taste"}
+    ],
+    "instructions": [
+      "Arrange tomato and mozzarella slices on a serving platter.",
+      "Drizzle balsamic glaze and olive oil over the slices.",
+      "Sprinkle with fresh basil leaves.",
+      "Season with salt and pepper to taste.",
+      "Serve immediately as a refreshing salad or appetizer. Enjoy!"
+    ]
+  },
+  {
+    "title": "Chicken Fajitas",
+    "servings": 4,
+    "prep_time": "20 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 500, "unit": "g", "name": "boneless, skinless chicken thighs", "remarks": null},
+      {"amount": 2, "unit": null, "name": "bell peppers, sliced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "onion, sliced", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "lime juice", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "chili powder", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "cumin", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "paprika", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "garlic powder", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "onion powder", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "salt", "remarks": null},
+      {"amount": null, "unit": null, "name": "flour tortillas", "remarks": null},
+      {"amount": null, "unit": null, "name": "sour cream", "remarks": "for serving"}
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C (400°F).",
+      "In a bowl, mix olive oil, lime juice, chili powder, cumin, paprika, garlic powder, onion powder, and salt.",
+      "Slice chicken thighs into strips and coat them in the spice mixture.",
+      "Spread chicken strips, sliced bell peppers, and onion on a baking sheet.",
+      "Bake for 15 minutes or until chicken is cooked through and vegetables are tender.",
+      "Warm flour tortillas in the oven.",
+      "Serve chicken fajitas in warm tortillas with a dollop of sour cream. Enjoy!"
+    ]
+  },
+  {
+    "title": "Quinoa Salad with Roasted Vegetables",
+    "servings": 4,
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "name": "quinoa", "remarks": null},
+      {"amount": 2, "unit": "cups", "name": "vegetable broth", "remarks": null},
+      {"amount": 2, "unit": null, "name": "zucchini, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red bell pepper, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "yellow bell pepper, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red onion, diced", "remarks": null},
+      {"amount": 45, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "balsamic vinegar", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "dried thyme", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "rosemary", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "garlic powder", "remarks": null},
+      {"amount": 60, "unit": "g", "name": "feta cheese, crumbled", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and pepper", "remarks": "to taste"}
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C (400°F).",
+      "Rinse quinoa under cold water. Combine quinoa and vegetable broth in a saucepan. Bring to a boil, then simmer for 15 minutes or until quinoa is cooked.",
+      "In a bowl, toss diced zucchini, red bell pepper, yellow bell pepper, and red onion with olive oil, balsamic vinegar, dried thyme, rosemary, and garlic powder.",
+      "Spread the vegetables on a baking sheet and roast for 20-25 minutes, stirring halfway through.",
+      "In a large bowl, combine cooked quinoa, roasted vegetables, and crumbled feta cheese.",
+      "Season with salt and pepper to taste.",
+      "Serve warm or chilled. Enjoy!"
+    ]
+  },
+  {
+    "title": "Lemon Garlic Shrimp Pasta",
+    "servings": 4,
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 400, "unit": "g", "name": "linguine or spaghetti", "remarks": null},
+      {"amount": 400, "unit": "g", "name": "shrimp, peeled and deveined", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 4, "unit": "cloves", "name": "garlic, minced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "lemon, zest and juice", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh parsley, chopped", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "red pepper flakes", "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "white wine", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and black pepper", "remarks": "to taste"},
+      {"amount": 30, "unit": "g", "name": "parmesan cheese, grated", "remarks": null}
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions. Drain and set aside.",
+      "In a large pan, heat olive oil over medium heat.",
+      "Add minced garlic and red pepper flakes. Sauté for 1-2 minutes until garlic is fragrant.",
+      "Add shrimp to the pan and cook until pink and opaque.",
+      "Deglaze the pan with white wine. Add lemon zest and juice.",
+      "Toss in cooked pasta and fresh parsley. Mix until well coated.",
+      "Season with salt and black pepper to taste.",
+      "Serve with a sprinkle of grated parmesan cheese. Enjoy!"
+    ]
+  },
+  {
+    "title": "Teriyaki Tofu Stir-Fry",
+    "servings": 3,
+    "prep_time": "15 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 1, "unit": null, "name": "block tofu", "remarks": "extra-firm, cubed"},
+      {"amount": 250, "unit": "ml", "name": "broccoli florets", "remarks": null},
+      {"amount": 250, "unit": "ml", "name": "bell peppers, mixed colors, sliced", "remarks": "thinly"},
+      {"amount": 125, "unit": "ml", "name": "snap peas", "remarks": null},
+      {"amount": 45, "unit": "ml", "name": "soy sauce", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "teriyaki sauce", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "sesame oil", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "vegetable oil", "remarks": null},
+      {"amount": 5, "unit": "ml", "name": "rice vinegar", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "brown sugar", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "garlic, minced", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "ginger, grated", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "cornstarch", "remarks": null},
+      {"amount": null, "unit": null, "name": "green onions, chopped", "remarks": "for garnish"}
+    ],
+    "instructions": [
+      "In a bowl, whisk together soy sauce, teriyaki sauce, sesame oil, rice vinegar, brown sugar, garlic, ginger, and cornstarch.",
+      "Press tofu to remove excess water, then cut it into cubes.",
+      "In a wok or large pan, heat vegetable oil over medium-high heat.",
+      "Add tofu cubes and stir-fry until golden brown.",
+      "Add broccoli, bell peppers, and snap peas. Stir-fry for 5-7 minutes until vegetables are tender-crisp.",
+      "Pour the sauce over the tofu and vegetables. Toss to coat evenly.",
+      "Garnish with chopped green onions.",
+      "Serve over rice or noodles. Enjoy!"
+    ]
+  },
+  {
+    "title": "Roasted Lemon Herb Chicken",
+    "servings": 4,
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "ingredients": [
+      {"amount": 4, "unit": "bone-in, skin-on", "name": "chicken thighs", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 1, "unit": null, "name": "lemon, sliced", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh rosemary, chopped", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh thyme, chopped", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "garlic powder", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "onion powder", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "paprika", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "salt", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "black pepper", "remarks": null},
+      {"amount": null, "unit": null, "name": "potatoes, quartered", "remarks": null},
+      {"amount": null, "unit": null, "name": "carrots, peeled and chopped", "remarks": null},
+      {"amount": null, "unit": null, "name": "green beans, trimmed", "remarks": null}
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C (400°F).",
+      "In a bowl, mix together olive oil, chopped rosemary, chopped thyme, garlic powder, onion powder, paprika, salt, and black pepper.",
+      "Place chicken thighs on a baking sheet. Rub the herb mixture over the chicken.",
+      "Arrange lemon slices around the chicken on the baking sheet.",
+      "In a bowl, toss quartered potatoes, chopped carrots, and trimmed green beans with olive oil, salt, and pepper.",
+      "Spread the vegetable mixture around the chicken on the baking sheet.",
+      "Roast in the preheated oven for 40-45 minutes or until the chicken is cooked through and vegetables are tender.",
+      "Serve the roasted lemon herb chicken with the roasted vegetables. Enjoy!"
+    ]
+  },
+  {
+    "title": "Black Bean and Corn Salad",
+    "servings": 6,
+    "prep_time": "15 minutes",
+    "cook_time": "0 minutes",
+    "ingredients": [
+      {"amount": 2, "unit": "cans (400g each)", "name": "black beans, drained and rinsed", "remarks": null},
+      {"amount": 250, "unit": "g", "name": "frozen corn, thawed", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red bell pepper, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "yellow bell pepper, diced", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red onion, finely chopped", "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "lime juice", "remarks": null},
+      {"amount": 15, "unit": "g", "name": "fresh cilantro, chopped", "remarks": null},
+      {"amount": 5, "unit": null, "name": "avocado, diced", "remarks": null},
+      {"amount": null, "unit": null, "name": "salt and pepper", "remarks": "to taste"}
+    ],
+    "instructions": [
+      "In a large bowl, combine black beans, thawed corn, diced red bell pepper, diced yellow bell pepper, and finely chopped red onion.",
+      "In a small bowl, whisk together olive oil and lime juice to create the dressing.",
+      "Pour the dressing over the salad and toss to combine.",
+      "Gently fold in chopped fresh cilantro and diced avocado.",
+      "Season with salt and pepper to taste.",
+      "Serve chilled as a refreshing salad or as a side dish. Enjoy!"
+    ]
+  },
+  {
+    "title": "Chicken and Vegetable Skewers",
+    "servings": 4,
+    "prep_time": "20 minutes",
+    "cook_time": "15 minutes",
+    "ingredients": [
+      {"amount": 500, "unit": "g", "name": "boneless, skinless chicken breasts", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red bell pepper, cut into chunks", "remarks": null},
+      {"amount": 1, "unit": null, "name": "green bell pepper, cut into chunks", "remarks": null},
+      {"amount": 1, "unit": null, "name": "yellow bell pepper, cut into chunks", "remarks": null},
+      {"amount": 1, "unit": null, "name": "red onion, cut into chunks", "remarks": null},
+      {"amount": 60, "unit": "ml", "name": "olive oil", "remarks": null},
+      {"amount": 30, "unit": "ml", "name": "soy sauce", "remarks": null},
+      {"amount": 15, "unit": "ml", "name": "honey", "remarks": null},
+      {"amount": 2, "unit": "cloves", "name": "garlic, minced", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "paprika", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "ground cumin", "remarks": null},
+      {"amount": 5, "unit": "g", "name": "dried oregano", "remarks": null},
+      {"amount": null, "unit": null, "name": "wooden skewers, soaked in water", "remarks": null}
+    ],
+    "instructions": [
+      "Preheat the grill to medium-high heat.",
+      "Cut chicken breasts into bite-sized cubes.",
+      "In a bowl, whisk together olive oil, soy sauce, honey, minced garlic, paprika, ground cumin, and dried oregano.",
+      "Thread chicken cubes, bell pepper chunks, and red onion onto the soaked wooden skewers.",
+      "Brush the skewers with the marinade.",
+      "Grill the skewers for 10-15 minutes, turning occasionally, until chicken is cooked through and vegetables are tender.",
+      "Serve the chicken and vegetable skewers hot off the grill. Enjoy!"
+    ]
+  }
+]
