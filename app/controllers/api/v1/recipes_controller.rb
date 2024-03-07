@@ -5,7 +5,7 @@ class Api::V1::RecipesController < ApplicationController
   end
 
   def create
-    recipe = Recipe.create!(recipe_params)
+    recipe = Recipe.create!(recipe_params.merge!(user: current_user))
     render json: recipe, status: :created
   end
 
@@ -28,6 +28,7 @@ class Api::V1::RecipesController < ApplicationController
   private
 
   def recipe_params
-    params.require(:recipe).permit(:id, :title, :description, :prep_time, :cook_time, :servings, ingredients_attributes: [:id, :name, :amount, :unit, :optional], instructions_attributes: [:id, :step_number, :description])
+    params.require(:recipe).permit(:id, :title, :description, :prep_time, :cook_time, :servings,
+                                   ingredients_attributes: %i[id name amount unit optional], instructions_attributes: %i[id step_number description])
   end
 end
