@@ -14,7 +14,8 @@
     last_name:,
     username: Faker::Internet.unique.username,
     email: Faker::Internet.email(name: "#{first_name} #{last_name}", separators: ['.'], domain: 'example.com'),
-    password: Faker::Internet.password(min_length: 8, special_characters: true)
+    password: Faker::Internet.password(min_length: 8, special_characters: true),
+    jti: Faker::Internet.uuid
   )
 end
 

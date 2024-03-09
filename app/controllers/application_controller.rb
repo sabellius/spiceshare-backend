@@ -1,11 +1,11 @@
 class ApplicationController < ActionController::API
+  include ActionController::MimeResponds
+
+  respond_to :json
+
   rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
   rescue_from ActionController::ParameterMissing, with: :parameter_missing
   rescue_from ActiveRecord::RecordInvalid, with: :record_invalid
-
-  def current_user
-    @current_user ||= User.all.sample
-  end
 
   private
 
