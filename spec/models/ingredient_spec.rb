@@ -1,5 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Ingredient, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'validations' do
+    it { should belong_to(:recipe) }
+    it { should validate_presence_of(:name) }
+    it { should validate_presence_of(:unit) }
+    it { should validate_presence_of(:amount) }
+  end
 end

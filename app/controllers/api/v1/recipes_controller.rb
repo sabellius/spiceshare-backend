@@ -1,4 +1,5 @@
 class Api::V1::RecipesController < ApplicationController
+  before_action :authenticate_user!, only: %i[create update destroy]
   def index
     recipes = Recipe.all
     render json: RecipeSerializer.new(recipes).serializable_hash.to_json
@@ -22,7 +23,7 @@ class Api::V1::RecipesController < ApplicationController
 
   def destroy
     Recipe.find(params[:id]).destroy
-    render json: {}, status: :no_content
+    render status: :no_content
   end
 
   private

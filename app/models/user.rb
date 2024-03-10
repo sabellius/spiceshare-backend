@@ -1,6 +1,11 @@
 class User < ApplicationRecord
-  has_secure_password
-  has_many :recipes
+  include Devise::JWT::RevocationStrategies::JTIMatcher
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable,
+         :jwt_authenticatable, jwt_revocation_strategy: self
+
+  has_many :recipes, dependent: :destroy
 
   validates :first_name, presence: true, length: { minimum: 2, maximum: 50 }
   validates :last_name, presence: true, length: { minimum: 2, maximum: 50 }
