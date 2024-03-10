@@ -4,6 +4,6 @@ FactoryBot.define do
     last_name { 'Israeli' }
     sequence(:email) { "user#{_1}@example.com" }
     sequence(:username) { "user#{_1}" }
-    password_digest { 'Password1!' }
+    password { 'Password1!' }
   end
 end
